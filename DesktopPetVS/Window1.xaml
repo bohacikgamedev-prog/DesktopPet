@@ -1,0 +1,47 @@
+﻿<Window x:Class="DesktopPetVS.ControlWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Control"
+        Width="200" Height="463"
+        WindowStyle="ToolWindow"
+        Topmost="True"
+        Closed="ControlWindow_Closed"
+        ResizeMode="CanResize">
+
+    <Grid>
+        <Button x:Name="RandomSpawnButton"
+                Content="Spawn Random Pet"
+                Width="120"
+                Height="40"
+                Margin="40,68,40,276"
+                Click="SpawnButton_Click"/>
+
+        <Button x:Name="SpawnButton1"
+                Content="Spawn 1st Pet"
+                Width="120"
+                Height="40"
+                Margin="40,152,40,192"
+                Click="SpawnButton1_Click"/>
+
+        <Button x:Name="SpawnButton2"
+                Content="Spawn 2nd Pet"
+                Width="120"
+                Height="40"
+                Margin="40,230,40,114"
+                Click="SpawnButton2_Click"/>
+
+        <Button x:Name="SpawnButton3"
+                Content="Spawn 3rd Pet"
+                Width="120"
+                Height="40"
+                Margin="40,311,40,33"
+                Click="SpawnButton3_Click"/>
+
+        <TextBlock x:Name="PetCountText"
+                   Text="Pets: 0"
+                   Margin="0,8,0,354"
+                   FontSize="14"
+                   HorizontalAlignment="Center" Width="80"/>
+
+    </Grid>
+</Window>
