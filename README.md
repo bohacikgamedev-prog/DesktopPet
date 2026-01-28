@@ -23,7 +23,7 @@ You don’t need the entire repo.
 Download only the **DesktopPetVS** folder and the **.sln** file, open the solution in Visual Studio, and run it.
 
 ### Option 3 – Run the .exe from Releases
-1. Download the **.exe** file from **Releases**  
+1. Download the **.exe** file from **Releases**  (right side)
 2. Windows Defender might warn you — just allow it  
 3. A simple installer wizard will guide you through the installation
 
