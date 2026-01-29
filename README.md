@@ -10,6 +10,8 @@ Welcome to **DesktopPet**, my little fun project where a tiny pet lives on your 
 
 > Don’t worry, the **.exe** build is in the **Releases** section if you just wanna run it without opening Visual Studio.
 
+<img width="458" height="133" alt="image" src="https://github.com/user-attachments/assets/f61d9e77-350c-4a91-9f60-60926acb8234" />
+
 ## What’s in the app
 The app includes a simple control panel where you can:
 - Spawn **random pets** with a single button  
